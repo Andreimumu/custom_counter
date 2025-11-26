@@ -11,7 +11,7 @@ const dropEmoji = () => {
   // Création de l'élément HTML5 <SPAN> et ajout de celui-ci dans le DOM
   const emoji = document.createElement("span");
   emoji.classList.add("emoji");
-  emoji.textContent = "😍";
+  emoji.textContent = "❄️"; // 😍
   document.body.appendChild(emoji);
 
   emoji.style.left = Math.random() * 100 + "vw";
