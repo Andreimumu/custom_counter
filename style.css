@@ -1,0 +1,76 @@
+/**** Importation de la police "Figtree" ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    outline: none;
+    font-family: "Figtree", sans-serif;
+}
+
+/**** body ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0e17;
+    color: #fffffe;
+}
+
+/**** counter ****/
+
+.counter {
+    font-size: 7rem;
+}
+
+
+.playpause__btn {
+    margin-top: 100px;
+    background-color: #fffffe;
+    color: #0f0e17;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border-color 0.3s ease-in-out,
+        background-color 0.3s ease-in-out,
+        color 0.3s ease-in-out;
+}
+
+.playpause__btn:hover {
+    border-color: #fffffe;
+    background-color: #ff8906;
+    color: #fffffe;
+}
+
+/**** emoji ****/
+
+.emoji {
+    font-size: 1.7rem;
+    position: fixed;
+    top: -1vh;
+    animation: fall 5s linear forwards;
+}
+
+/**** Animation fall ****/
+
+@keyframes fall {
+    to {
+        transform: translateY(102vh);
+    }
+}
