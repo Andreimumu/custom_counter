@@ -8,7 +8,7 @@ Le compteur se met en marche automatiquement dès l'entrée sur la page ce qui e
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/custom_counter/
 
 ## Projet développé avec
 
